@@ -1,0 +1,35 @@
+"""
+YSU CS2020: Python Programming Fundamentals
+From Binary Basics to Object-Oriented Programming
+"""
+
+class CourseIntroduction:
+    """Introduction to the Python Programming Course"""
+    
+    def __init__(self):
+        self.course_title = "CS2020: Python Programming Fundamentals"
+        self.institution = "Yerevan State University - AI Bachelor Program"
+        self.level = "Beginner"
+        self.duration = "15 Weeks"
+        
+    def display_welcome(self):
+        """Display course welcome message"""
+        message = f"""
+        🎓 Welcome to {self.course_title}!
+        📚 {self.institution}
+        🎯 Level: {self.level}
+        ⏱️ Duration: {self.duration}
+        
+        This course will take you from understanding how computers work at the 
+        most fundamental level (bits and bytes) to mastering Object-Oriented 
+        Programming in Python.
+        
+        Ready to begin your programming journey? Let's start with the basics!
+        """
+        print(message)
+
+
+# Start the course
+if __name__ == "__main__":
+    course = CourseIntroduction()
+    course.display_welcome()
