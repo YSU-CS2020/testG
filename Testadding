@@ -6,7 +6,8 @@ From Binary Basics to Object-Oriented Programming
 class CourseIntroduction:
     """Introduction to the Python Programming Course"""
     
-    def __init__(self):
+    #def __init__(self):
+    def __init__(self_self):
         self.course_title = "CS2020: Python Programming Fundamentals"
         self.institution = "Yerevan State University - AI Bachelor Program"
         self.level = "Beginner"
